@@ -1,25 +1,28 @@
 * {
-  box-sizing: border-box;
-  margin: 0 auto;
+  box-sizing      : border-box;
+  margin          : 0 auto;
+  background-color: red;
 }
+
 .login-header {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 1.96%;
-  width: 100%;
-  height: 30px;
-  background: #346f2f;
-  margin-bottom: 10%;
-  display: flex;
+  position       : absolute;
+  left           : 0%;
+  right          : 0%;
+  top            : 0%;
+  bottom         : 1.96%;
+  width          : 100%;
+  height         : 30px;
+  background     : #346f2f;
+  margin-bottom  : 10%;
+  display        : flex;
   justify-content: center;
 }
+
 .login-logo {
   font-family: Zhi Mang Xing;
-  font-style: normal;
+  font-style : normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size  : 30px;
   line-height: 100%;
   /* identical to box height, or 51px */
 
@@ -30,168 +33,177 @@
 
 .login-cont {
   margin-top: 5%;
-  width: 57.125rem;
-  height: 54.625rem;
-  left: 16.4375rem;
-  top: 5.75rem;
+  width     : 57.125rem;
+  height    : 54.625rem;
+  left      : 16.4375rem;
+  top       : 5.75rem;
   background: #e3c291;
-  border: 1px solid #e3c291;
+  border    : 1px solid #e3c291;
 }
+
 .sub-cont {
-  flex-flow: column wrap;
-  width: 60%;
+  flex-flow : column wrap;
+  width     : 60%;
   margin-top: 15%;
 }
 
 .login-text {
-  width: 100%;
-  display: flex;
+  width          : 100%;
+  display        : flex;
   justify-content: center;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3rem;
-  line-height: 3.5rem;
-  color: #000000;
-  margin-bottom: 20%;
+  font-family    : Roboto;
+  font-style     : normal;
+  font-weight    : normal;
+  font-size      : 3rem;
+  line-height    : 3.5rem;
+  color          : #000000;
+  margin-bottom  : 20%;
 }
 
 .user-label {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0%;
+  font-family  : Roboto;
+  font-style   : normal;
+  font-weight  : 300;
+  font-size    : 18px;
+  line-height  : 21px;
+  margin       : 0%;
   margin-bottom: 4%;
 }
+
 .user-group {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  align-content: space-between;
-  margin-bottom: 6%;
+  align-content : space-between;
+  margin-bottom : 6%;
 }
+
 .pass-group {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  align-content: space-between;
+  align-content : space-between;
 }
+
 .login-field {
   background: linear-gradient(0deg, #ffffff, #ffffff),
     linear-gradient(0deg, #ffffff, #ffffff),
     linear-gradient(0deg, #ffffff, #ffffff), #ffffff;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border       : 1px solid #000000;
+  box-sizing   : border-box;
+  box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
-  width: 32.125rem;
-  height: 2.1875rem;
+  width        : 32.125rem;
+  height       : 2.1875rem;
 }
 
 .login-button {
-  width: 16.3125rem;
-  height: 5.625rem;
-  background: #45933e;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width        : 16.3125rem;
+  height       : 5.625rem;
+  background   : #45933e;
+  box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-  color: #ffffff;
-  border: none;
+  font-family  : Roboto;
+  font-style   : normal;
+  font-weight  : bold;
+  font-size    : 24px;
+  line-height  : 28px;
+  text-align   : center;
+  color        : #ffffff;
+  border       : none;
 }
+
 .button-div {
-  display: flex;
+  display        : flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 25%;
+  align-items    : center;
+  margin-top     : 25%;
 }
 
 .create-how-to-text {
-  width: 11.125rem;
-  height: 1.75rem;
+  width      : 11.125rem;
+  height     : 1.75rem;
   font-family: Roboto;
-  font-style: normal;
+  font-style : normal;
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size  : 1.5rem;
   line-height: 1.75rem;
-  display: flex;
+  display    : flex;
 
   margin: 3% 15%;
 }
+
 .ht-title-text {
-  margin: 0;
+  margin       : 0;
   margin-bottom: 2%;
 
   font-family: Roboto;
-  font-style: normal;
+  font-style : normal;
   font-weight: 300;
-  font-size: 1.125rem;
+  font-size  : 1.125rem;
   line-height: 1.3125rem;
 }
+
 .how-to-title-category {
-  width: 100%;
-  display: flex;
+  width        : 100%;
+  display      : flex;
   margin-bottom: 5%;
 }
+
 .title-ht {
-  /* float: left; */
-  margin-left: 15%;
-  display: flex;
+  /* float      : left; */
+  margin-left   : 15%;
+  display       : flex;
   flex-direction: column;
 }
 
 .category-ht {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  /* float: right; */
-  margin-right: 15%;
+  /* float      : right; */
+  margin-right  : 15%;
 }
 
 .ht-title-input {
-  width: 40.125rem;
+  width : 40.125rem;
   height: 2.1875rem;
 
   background: linear-gradient(0deg, #ffffff, #ffffff),
     linear-gradient(0deg, #ffffff, #ffffff),
     linear-gradient(0deg, #ffffff, #ffffff), #ffffff;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border       : 1px solid #000000;
+  box-sizing   : border-box;
+  box-shadow   : 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
 
 .how-to-skills-tools {
-  width: 100%;
-  display: flex;
+  width        : 100%;
+  display      : flex;
   margin-bottom: 5%;
 }
+
 .skills-ht {
-  margin-left: 15%;
-  display: flex;
+  margin-left   : 15%;
+  display       : flex;
   flex-direction: column;
 }
 
 .tools-ht {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  /* float: right; */
-  margin-right: 15%;
+  /* float      : right; */
+  margin-right  : 15%;
 }
 
 .tables {
-  border-bottom:none !important;
+  border-bottom: none !important;
 }
 
 .nav_table {
-  width:30%;
+  width: 30%;
 }
 
 .welcome {
-  position: absolute;
-  left: 50%;
+  position   : absolute;
+  left       : 50%;
   margin-left: -120px;
 }
