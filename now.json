@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "how-to-app",
+  "builds": [{ "src": "how-to-app/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+  "routes": [
+      { "src": "/(.*)", "dest": "how-to-app/$1" }
+  ]
+}
